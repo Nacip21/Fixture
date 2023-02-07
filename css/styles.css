@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&display=swap');
+
+.nav-cont {
+    background: #290510;
+    color: #740f2d;
+
+}
+
+.By{
+    background: linear-gradient(
+      #8a3d54, #290510
+    );
+    
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    color: burlywood
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group {
+    padding: 40px 15px 15px 15px;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+}
+
+.nav-bar{
+    text-align: center;
+    align-items: center;
+    color: black;
+    
+}
+.bar{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background:#290510;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+}
+.bar a{
+    margin: 20px;
+}
+
+body{
+    background-color:#740f2d;
+    font-family: "arima madurai";
+    font-size: xx-large;
+}
+h2{
+    background-color:rgb(133, 82, 82);
+    text-align: center;
+    padding: 1%;
+}
+.live{
+    background:#290510;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+a:hover{
+    background-color: #8a3d54;
+    border-radius: 60px;
+}
+h2:hover{
+    background: #8a3d54;
+    text-align:center;
+    transition: 100ms ease-in;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction:row-reverse;
+    padding: 30px;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    color:burlywood;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: gray
+}
+.container-info{
+    margin-bottom: 24px;
+}
+.pais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+
+.pais img{
+    width: 50px;
+    border-radius: 2px;
+}
+
+.pais p{
+    padding: 5px;
+}
+
+.imag{
+    width: 180px;
+    padding: 20px;
+}
+
+.titulo{
+    font-size:xx-large;
+    color: black;
+}
+
+.img-mundo{
+    display: block;
+    margin: auto;
+}
+
+.world{
+    background: rgb(170, 116, 116);
+    color: black;
+    font-size: xx-large;
+}
+.world:hover{
+    background: rgb(146, 126, 75);
+    color: #0077ff;
+}
+.world1{
+    color: black;
+    margin-bottom: 24px;
+}
+.card{
+    padding: 40px 15px 15px 15px;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    margin: 3%;
+}
+
+.p{
+    color: antiquewhite;
+    margin-bottom: 80px;
+}
+header{
+    background: rgba(0,0,0,0,7);
+    width: 100%;
+    position:static;
+    flex-direction: column-reverse;
+}
+
+
